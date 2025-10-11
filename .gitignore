@@ -1,0 +1,38 @@
+# Data
+data/
+*.csv
+*.tsv
+*.xlsx
+*.parquet
+*.feather
+*.hdf5
+*.pkl
+*.zip
+*.tar.gz
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Python specific files
+__pycache__/
+*.pyc
+*.log
+.mypy_cache/
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Environment files
+.env
+.DS_Store # macOS specific
+Thumbs.db # Windows specific
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Machine Learning related
+models/
+results/
+artifacts/
