@@ -9,7 +9,7 @@ MNIST ma’lumotlar to‘plamidagi qo‘l bilan yozilgan raqamlarni tasniflash u
 Modelni o‘qitish (training) va keyin yangi rasmlar bilan test qilish (prediction) imkonini taqdim etish.
 
 Loyihani kodni tushunish oson tarzda tuzish hamda predict.py orqali real vaqt (yoki oldindan tayyorlangan rasm) bilan natijalar ko‘rish.
-
+```
 🧰 Loyihaning tuzilishi
 mnist-project/
 ├── images/                  # Qo‘l bilan yozilgan raqamlar namunasi rasmlar
@@ -19,28 +19,28 @@ mnist-project/
 ├── requirements.txt         # Loyihaga kerakli Python kutubxonalar  
 ├── simplecnn_state.pth      # O‘qitilgan model og‘irliklari fayli  
 └── train.ipynb              # Jupyter Notebook: modelni o‘qitish bo‘yicha kod  
-
+```
 🚀 Ishga tushirish
 
 Quyidagi bosqichlarni bajarish orqali loyiha bilan ishlashingiz mumkin:
 
 Loyihani klon qilish:
-
+```
 git clone https://github.com/muhammadibrohimov-ai/mnist-project.git
 cd mnist-project
-
+```
 
 Kerakli kutubxonalarni o‘rnatish:
-
+```
 pip install -r requirements.txt
-
+```
 
 (Majburiy emas, faqat agar siz modelni qayta o‘qitmoqchi bo‘lsangiz) train.ipynb faylini ochib, trening jarayonini bajarish.
 
 Modelni ishlatish uchun:
-
+```
 python predict.py
-
+```
 
 Bu skript sizdan rasm faylini so‘rashi mumkin yoki drawing_image.py orqali oddiy rasm chizish imkoniyatini beradi.
 
